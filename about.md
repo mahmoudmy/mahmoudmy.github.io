@@ -1,4 +1,4 @@
----
+﻿---
 layout: page
 title: درباره
 permalink: /about/
@@ -6,4 +6,4 @@ permalink: /about/
 
 [من][twitter]
 
-[twitter]: http://twitter.com/1yazdi
+[twitter]: http://twitter.com/mahmoudmy_
