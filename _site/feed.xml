@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>آمار و R و چیزهای دیگر</title>
-    <description>نوشته‌هایی پیرامون آمار، نرم‌افزار R و چیزهای دیگر</description>
+    <description>نوشته‌هایی پیرامون علم آمار، نرم‌افزار R و چیزهای دیگر</description>
     <link>mahmoudmy.github.io/</link>
     <atom:link href="mahmoudmy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 09 Jan 2015 21:57:08 +0330</pubDate>
-    <lastBuildDate>Fri, 09 Jan 2015 21:57:08 +0330</lastBuildDate>
+    <pubDate>Fri, 09 Jan 2015 23:47:39 +0330</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2015 23:47:39 +0330</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>

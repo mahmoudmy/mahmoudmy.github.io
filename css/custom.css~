@@ -10,6 +10,18 @@ body{
 
 body{font-family:nassim,sans-serif;font-size:1.2rem;line-height:1.9rem;}
 
-a{
-	text-decoration: none;
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
