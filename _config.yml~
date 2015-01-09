@@ -11,3 +11,6 @@ github_username:  mahmoudmy
 markdown: kramdown
 
 comments: true
+
+gems:
+  - jekyll-sitemap
