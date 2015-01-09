@@ -1,0 +1,15 @@
+body{
+  direction: rtl;
+}
+
+.highlight{
+  direction: ltr;
+}
+
+@font-face{font-family:'nassim';src:url('../fonts/nassim.eot');src:url('../fonts/nassim.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim.woff') format('woff'),url('../fonts/nassim.ttf') format('truetype');font-style:normal;font-weight:normal;}@font-face{font-family:'nassim';src:url('../fonts/nassim-bold.eot');src:url('../fonts/nassim-bold.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim-bold.woff') format('woff'),url('../fonts/nassim-bold.ttf') format('truetype');font-style:normal;font-weight:bold;}
+
+body{font-family:nassim,sans-serif;font-size:1.2rem;line-height:1.9rem;}
+
+a{
+	text-decoration: none;
+}

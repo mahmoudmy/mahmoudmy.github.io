@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>آمار و R و چیزهای دیگر</title>
+    <description>نوشته‌هایی پیرامون آمار، نرم‌افزار R و چیزهای دیگر</description>
+    <link>mahmoudmy.github.io/</link>
+    <atom:link href="mahmoudmy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 09 Jan 2015 21:57:08 +0330</pubDate>
+    <lastBuildDate>Fri, 09 Jan 2015 21:57:08 +0330</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>...پس من هم می‌نویسم</title>
+        <description>&lt;p&gt;در ایران علیرغم اینکه متخصص و کاربر R 
+&lt;a href=&quot;http://www.inside-r.org/what-is-r&quot;&gt;(همان نرم افزار آماری اوپن سورس که دل خیلی‌ها را برده!)&lt;/a&gt;
+کم نداریم ولی  متأسفانه وبلاگ فعال با محوریت آمار و R نداریم (من ندیدم تا حالا)!
+چند وقتی بود دلم میخواست در فضای مجازی حضوری وبلاگی داشته باشم، پیرامون R که اخیراً با 
+&lt;a href=&quot;http://jekyllrb.com&quot;&gt;jekyll&lt;/a&gt;
+هم آشنا شدم. همین آشنایی باعث ترغیب بیشتر من به نوشتن درباره آمار و R و چیزهای دیگر شد.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 00:00:00 +0330</pubDate>
+        <link>mahmoudmy.github.io/lets-write/</link>
+        <guid isPermaLink="true">mahmoudmy.github.io/lets-write/</guid>
+        
+        
+        <category>متفرقه</category>
+        
+      </item>
+    
+  </channel>
+</rss>
