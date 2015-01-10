@@ -70,7 +70,7 @@ a {
     color: #1756a9; }
   a:hover {
     color: #111;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 /**
  * Blockquotes
@@ -264,8 +264,7 @@ pre {
   font-size: 20px; }
 
 .post-list {
-  margin-right: 0;
-  list-style: none; }
+  margin-right: 0; }
   .post-list > li {
     margin-bottom: 30px; }
 
