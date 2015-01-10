@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>درباره</title>
-  <meta name="description" content="نوشته‌هایی پیرامون علم آمار، نرم‌افزار R و چیزهای دیگر">
+  <title>تحلیل واریانس (ANOVA) در R</title>
+  <meta name="description" content="تحلیل واریانس خیلی خشهdata.frame(  Sabor =  c(5, 7, 3,    4, 2, 6,    5, 3, 6,    5, 6, 0,    7, 4, 0,    7, 7, 0,    6, 6, 0,    4, 6, 1,    6, 4, 0,    7, ...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="mahmoudmy.github.io/about/">
+  <link rel="canonical" href="mahmoudmy.github.io/date">
   <link rel="alternate" type="application/atom+xml" title="آمار و R و چیزهای دیگر" href="mahmoudmy.github.io/feed.xml" />
   <link rel="stylesheet" href="/css/custom.css">
 </head>
@@ -58,16 +58,57 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">درباره</h1>
+    <h1 class="post-title">تحلیل واریانس (ANOVA) در R</h1>
+    <p class="post-meta">10-01-2015</p>
   </header>
 
   <article class="post-content">
-    <p><a href="http://twitter.com/mahmoudmy_">من</a></p>
+    <p>تحلیل واریانس خیلی خشه</p>
+
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="kt">data.frame</span><span class="p">(</span>
+  Sabor <span class="o">=</span>
+  <span class="kt">c</span><span class="p">(</span><span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span>
+    <span class="m">4</span><span class="p">,</span> <span class="m">2</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span>
+    <span class="m">5</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span>
+    <span class="m">5</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">7</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">7</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">6</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">4</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">1</span><span class="p">,</span>
+    <span class="m">6</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">7</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">2</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">5</span><span class="p">,</span> <span class="m">7</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span>
+    <span class="m">7</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span>
+    <span class="m">6</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">3</span>
+  <span class="p">),</span>
+Tipo <span class="o">=</span> <span class="kp">factor</span><span class="p">(</span><span class="kp">rep</span><span class="p">(</span><span class="kt">c</span><span class="p">(</span><span class="s">&quot;A&quot;</span><span class="p">,</span> <span class="s">&quot;B&quot;</span><span class="p">,</span> <span class="s">&quot;C&quot;</span><span class="p">),</span> <span class="m">15</span><span class="p">)),</span>
+Provador <span class="o">=</span> <span class="kp">factor</span><span class="p">(</span><span class="kp">rep</span><span class="p">(</span><span class="m">1</span><span class="o">:</span><span class="m">15</span><span class="p">,</span> <span class="kp">rep</span><span class="p">(</span><span class="m">3</span><span class="p">,</span> <span class="m">15</span><span class="p">))))</span></code></pre></div>
 
 
   </article>
 
+
+  
+
+
 </div>
+
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'mahmoudmy'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 
       </div>
     </div>

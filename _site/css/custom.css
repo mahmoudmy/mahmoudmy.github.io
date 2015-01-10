@@ -1,14 +1,14 @@
-body{
+p, .site-header, .post-list, h1, h2, h3, h4, h5, h6, .contact-list{
   direction: rtl;
-}
-
-.highlight{
-  direction: ltr;
+  font-size:1.2rem;
+  line-height:1.9rem;
 }
 
 @font-face{font-family:'nassim';src:url('../fonts/nassim.eot');src:url('../fonts/nassim.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim.woff') format('woff'),url('../fonts/nassim.ttf') format('truetype');font-style:normal;font-weight:normal;}@font-face{font-family:'nassim';src:url('../fonts/nassim-bold.eot');src:url('../fonts/nassim-bold.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim-bold.woff') format('woff'),url('../fonts/nassim-bold.ttf') format('truetype');font-style:normal;font-weight:bold;}
 
-body{font-family:nassim,sans-serif;font-size:1.2rem;line-height:1.9rem;}
+body{
+font-family:nassim,sans-serif;
+}
 
 a:link {
     text-decoration: none;
@@ -26,8 +26,5 @@ a:active {
     text-decoration: none;
 }
 
-.social-media-list{
-	direction: ltr;
-}
 
 
