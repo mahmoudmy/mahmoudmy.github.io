@@ -5,7 +5,7 @@ description: نوشته‌هایی پیرامون علم آمار، نرم‌ا�
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: mahmoudmy.github.io
 twitter_username: mahmoudmy_
-github_username:  mahmoudmy
+github_username:  
 
 # Build settings
 markdown: kramdown
