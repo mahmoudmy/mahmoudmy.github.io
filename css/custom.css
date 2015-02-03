@@ -15,5 +15,11 @@ strong{
 	font-weight: 600;
 }
 
-
-
+.name{
+color: red;
+}
+.wplot{
+width: 500px;
+margin-right: auto;
+margin-left: auto;
+}
