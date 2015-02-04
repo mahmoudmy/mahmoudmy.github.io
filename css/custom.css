@@ -1,14 +1,12 @@
 p, .site-header, .post-list, h1, h2, h3, h4, h5, h6, .contact-list, .page-content ul, .page-content ol,
 .social-media-list{
   direction: rtl;
-  font-size:1.2rem;
-  line-height:1.9rem;
+  font-size:1.1rem;
+  line-height:2rem;
 }
 
-@font-face{font-family:'nassim';src:url('../fonts/nassim.eot');src:url('../fonts/nassim.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim.woff') format('woff'),url('../fonts/nassim.ttf') format('truetype');font-style:normal;font-weight:normal;}@font-face{font-family:'nassim';src:url('../fonts/nassim-bold.eot');src:url('../fonts/nassim-bold.eot?#iefix') format('embedded-opentype'),url('../fonts/nassim-bold.woff') format('woff'),url('../fonts/nassim-bold.ttf') format('truetype');font-style:normal;font-weight:bold;}
-
 body{
-font-family:nassim,sans-serif;
+font-family:'droid arabic naskh',sans-serif;
 }
 
 strong{
@@ -23,3 +21,16 @@ width: 500px;
 margin-right: auto;
 margin-left: auto;
 }
+.post-title{
+font-size:30px;
+line-height: 3rem;
+}
+
+.center{
+text-align: center;
+}
+
+img[src*="name"] {
+  width:70%;
+}
+
