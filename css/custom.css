@@ -55,3 +55,8 @@ img[src*="name"] {
 .contact-list li {
     font-size: 14px;
 }
+.post-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
