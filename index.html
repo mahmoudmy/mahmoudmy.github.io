@@ -4,16 +4,15 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">دنبال کردن نوشته‌ها با <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+    <h1>آخرین نوشته‌ها</h1>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
 
 </div>

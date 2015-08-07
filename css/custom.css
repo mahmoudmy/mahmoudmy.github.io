@@ -4,15 +4,12 @@ p, .site-header, .post-list, h1, h2, h3, h4, h5, h6, .contact-list, .page-conten
   font-size:1.1rem;
   line-height:2rem;
 }
-
 body{
 font-family:'droid arabic naskh',sans-serif;
 }
-
 strong{
 	font-weight: 600;
 }
-
 .name{
 color: red;
 }
@@ -25,12 +22,36 @@ margin-left: auto;
 font-size:30px;
 line-height: 3rem;
 }
-
 .center{
 text-align: center;
 }
-
 img[src*="name"] {
   width:70%;
 }
-
+.post-list li {
+    list-style: none;
+    border-bottom: 1px solid #bdc3c7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.post-list li:last-child {
+    border-bottom: none;
+}
+.site-nav .trigger a {
+    min-width: 20px;
+    color: #212121;
+    margin-right: 7px;
+    display: inline-block;
+}
+.site-nav .trigger a:hover {
+    color: #7f8c8d;
+}
+.post-list a {
+    color: #212121;
+}
+.post-list a:hover {
+    color: #7f8c8d;
+}
+.contact-list li {
+    font-size: 14px;
+}

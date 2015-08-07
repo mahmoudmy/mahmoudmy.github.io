@@ -1,11 +1,11 @@
 # Site settings
-title: داده‌های گم‌شده
+title:  داده‌های گم‌شده
 email: m.mosalman@gmail.com
-description: نوشته‌هایی پیرامون علم آمار، نرم‌افزار R و چیزهای دیگر
+description: نوشته‌های محمود مسلمان درباره داده، وب و مسائل پیرامونی!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: 
+url:
 twitter_username: mahmoudmy_
-github_username:  
+github_username:
 
 # Build settings
 markdown: kramdown
