@@ -1,61 +1,101 @@
-p, .site-header, .post-list, h1, h2, h3, h4, h5, h6, .contact-list, .page-content ul, .page-content ol,
-.social-media-list{
-  direction: rtl;
-  font-size:1.1rem;
-  line-height:2rem;
+p,
+.site-header,
+.post-list,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.contact-list,
+.page-content ul,
+.page-content ol,
+.social-media-list {
+    direction: rtl;
+    font-size: 1.1rem;
+    line-height: 2rem;
 }
-body{
-font-family:'droid arabic naskh',sans-serif;
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'), url('Vazir.woff') format('woff'), url('Vazir.ttf') format('truetype');
+    font-weight: normal;
 }
-strong{
-	font-weight: 600;
+
+@font-face {
+    font-family: Vazir;
+    src: url('Vazir-Bold.eot');
+    src: url('Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('Vazir-Bold.woff') format('woff'), url('Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
 }
-.name{
-color: red;
+
+body {
+    font-family: Vazir, sans-serif;
 }
-.wplot{
-width: 500px;
-margin-right: auto;
-margin-left: auto;
+
+strong {
+    font-weight: 600;
 }
-.post-title{
-font-size:30px;
-line-height: 3rem;
+
+.name {
+    color: red;
 }
-.center{
-text-align: center;
+
+.wplot {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+.post-title {
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+.center {
+    text-align: center;
+}
+
 img[src*="name"] {
-  width:70%;
+    width: 70%;
 }
+
 .post-list li {
     list-style: none;
     border-bottom: 1px solid #bdc3c7;
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .post-list li:last-child {
     border-bottom: none;
 }
+
 .site-nav .trigger a {
     min-width: 20px;
     color: #212121;
     margin-right: 7px;
     display: inline-block;
 }
+
 .site-nav .trigger a:hover {
     color: #7f8c8d;
 }
+
 .post-list a {
     color: #212121;
 }
+
 .post-list a:hover {
     color: #7f8c8d;
 }
+
 .contact-list li {
     font-size: 14px;
 }
-.post-content img{
+
+.post-content img {
     display: block;
     margin-left: auto;
     margin-right: auto;
